@@ -8,8 +8,6 @@
 #           -twhatever-e123,125  <-- picks topic 'whatever', excluding picks numbered 123 and 125)
 
 picks=(
-# hardware/libhardware
-158286
 # bionic
 158551
 )
