@@ -8,10 +8,6 @@
 #           -twhatever-e123,125  <-- picks topic 'whatever', excluding picks numbered 123 and 125)
 
 picks=(
-# hardware/qcom/audio
-160259
-# bionic
-158551
 )
 
 [ ! -f build/envsetup.sh ] && echo "Nah, you don't appear to be at the top of your source tree!" && exit 1
