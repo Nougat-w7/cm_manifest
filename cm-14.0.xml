@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
 <!--Debloat-->
@@ -14,6 +15,7 @@
   <remove-project name="device/generic/qemu" />
   <remove-project name="device/generic/x86" />
   <remove-project name="device/generic/x86_64" />
+  <remove-project name="device/google/atv" />
   <remove-project name="platform/hardware/intel/audio_media" />
   <remove-project name="platform/hardware/intel/bootstub" />
   <remove-project name="platform/hardware/intel/common/bd_prov" />
@@ -24,7 +26,6 @@
   <remove-project name="platform/prebuilts/clang/host/darwin-x86" />
   <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8" />
   <remove-project name="platform/prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" />
-  <remove-project name="platform/prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.9"/>
   <remove-project name="platform/prebuilts/gdb/darwin-x86"/>
   <remove-project name="platform/prebuilts/go/darwin-x86"/>
   <remove-project name="platform/prebuilts/python/darwin-x86/2.7.5"/>
@@ -40,6 +41,7 @@
   <remove-project name="CyanogenMod/android_hardware_intel_img_hwcomposer" />
   <remove-project name="CyanogenMod/android_hardware_intel_img_psb_headers" />
   <remove-project name="CyanogenMod/android_hardware_intel_img_psb_video" />
+  <remove-project name="CyanogenMod/android_packages_apps_TV" />
   <remove-project name="CyanogenMod/android_prebuilts_gcc_darwin-x86_aarch64_aarch64-linux-android-4.9"/>
   <remove-project name="CyanogenMod/android_prebuilts_gcc_darwin-x86_arm_arm-linux-androideabi-4.9"/>
   <remove-project name="CyanogenMod/android_prebuilts_gcc_darwin-x86_x86_x86_64-linux-android-4.9"/>
