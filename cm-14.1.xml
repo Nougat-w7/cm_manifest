@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+   <remote name = "bb"
+      fetch = "https://bitbucket.org/" 
+      revision="master" />
+
 <!--Debloat-->
 
   <!--AOSP-->
@@ -45,6 +49,7 @@
   <remove-project name="CyanogenMod/android_prebuilts_gcc_darwin-x86_aarch64_aarch64-linux-android-4.9"/>
   <remove-project name="CyanogenMod/android_prebuilts_gcc_darwin-x86_arm_arm-linux-androideabi-4.9"/>
   <remove-project name="CyanogenMod/android_prebuilts_gcc_darwin-x86_x86_x86_64-linux-android-4.9"/>
+  <remove-project name="CyanogenMod/android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9"/>
   <remove-project name="CyanogenMod/android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9"/>
   <remove-project name="CyanogenMod/android_prebuilts_gcc_linux-x86_x86_x86_64-linux-android-4.9"/>
   <!--CyanogenMod-->
@@ -57,9 +62,11 @@
   <project path="vendor/lge" name="Nougat-w7/proprietary_vendor_lge" remote="github" revision="master" />
   <project path="manifests" name="Nougat-w7/local_manifests" remote="github" revision="master" />
   <!-- Nougat-w7 -->
-  
-  <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" remote="github" revision="staging/cm-14.0" />
+
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="mdalexca/arm-eabi-4.9" remote="bb" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="SlimShadys/arm-linux-androideabi-4.9-uber" remote="github" revision="master" />
+  <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" remote="github" revision="cm-14.1" />
   <project path="kernel/lge/msm8226" name="GrinningFerret/android_kernel_lge_msm8226" remote="github" revision="n-test" />
-  <project path="external/sony/boringssl-compat" name="CyanogenMod/android_external_sony_boringssl-compat" remote="github" revision="cm-14.0" />
+  <project path="external/sony/boringssl-compat" name="CyanogenMod/android_external_sony_boringssl-compat" remote="github" revision="cm-14.1" />
 
 </manifest>
