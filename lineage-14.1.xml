@@ -63,7 +63,7 @@
   <project path="manifests" name="Nougat-w7/local_manifests" remote="github" revision="master" />
   <!-- Nougat-w7 -->
 
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="mdalexca/arm-eabi-4.9" remote="bb" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="DespairFactor/arm-eabi-4.9" remote="bb" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="SlimShadys/arm-linux-androideabi-4.9-uber" remote="github" revision="master" />
   <project path="device/qcom/common" name="LineageOS/android_device_qcom_common" remote="github" revision="cm-14.1" />
   <project path="kernel/lge/msm8226" name="GrinningFerret/android_kernel_lge_msm8226" remote="github" revision="n-test" />
